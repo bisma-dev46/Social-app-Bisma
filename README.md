@@ -3,21 +3,49 @@
 A frontend-only social media web application built with React, Tailwind CSS, and localStorage — inspired by Facebook. Users can sign up, create posts, like, comment, and manage their profile, all without a backend.
 
 ## Live Demo
-🔗 [Add your Vercel link here after deploying]
+
+🔗 [social-app-bisma.vercel.app](https://social-app-bisma.vercel.app)
 
 ## Screenshots
 
-### Feed Page
-[Add screenshot here]
+### Login Page
 
-### Create Post
-[Add screenshot here]
 
-### Profile Page
-[Add screenshot here]
+![Login Page](Screenshot/login.png)
+
+
 
 ### Dashboard
-[Add screenshot here]
+
+
+![Dashboard](Screenshot/dashboard.png)
+
+
+
+### Create Post
+
+
+![Create Post](Screenshot/my-post.png)
+
+
+
+### Profile Page
+
+
+![Profile Page](Screenshot/profile.png)
+
+
+
+### Testing
+
+
+![Testing](Screenshot/testing.png)
+
+
+
+
+
+
 
 ## Tech Stack
 - React (Vite)
@@ -99,7 +127,8 @@ likes
 
 ## What I Learned
 Building this project taught me how to manage authentication state across an entire app using React Context, without relying on a real backend. I learned how to structure a React project with reusable components like buttons, inputs, and cards, instead of repeating the same code everywhere. Working with React Router's protected routes helped me understand how real apps control access to certain pages. I also got hands-on practice with React Hook Form for validation, and learned how to persist data using localStorage in a clean, organized way through a single storage utility file. Debugging import errors and case-sensitive file names also taught me to be much more careful and precise when naming files and components.
+
 ## Known Limitations
 Since there is no real backend, all data is stored only in the browser's localStorage and is not shared between devices or browsers
 Uploaded images are stored as base64 text, so very large images can fill up localStorage quickly
-Passwords are stored in plain text since there is no real backend to hash them — this is only for learning purposes and would need proper security in a production app
+Passwords are stored in plain text since there is no real backend to hash them — this is only for learning purposes and would need proper security in a production app.
